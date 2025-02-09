@@ -33,8 +33,8 @@ function draw() {
 function addGif() {
   let newGif = {
     gif: loadImage('among-us-twerk.gif'),
-    x: random(0, windowHeight),
-    y: random(0, windowWidth)
+    x: random(0, windowWidth),
+    y: random(0, windowHeigth)
   };
   if(frames % 5 == 0 && (newGif.x > (windowHeight/2)))
     {

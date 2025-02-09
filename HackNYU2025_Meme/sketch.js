@@ -36,7 +36,7 @@ function addGif() {
     x: random(0, windowWidth),
     y: random(0, windowHeigth)
   };
-  if(frames % 5 == 0 && (newGif.x > (windowHeight/2)))
+  if(frames % 5 == 0 && (newGif.x > (windowWidth/2)))
     {
         mySound.play();
     }
